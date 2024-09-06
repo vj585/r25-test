@@ -45,14 +45,17 @@ If you are able to compile your code successfully you should see something like 
 # Solution
 ## Understanding
 Describe what you understood about the problem.
+THE PROBLEM IS TO CONTROL THE MOTOR WHICH IS IN CONNECTION WITH A SABERTOOTH MOTOR DRIVER AND IMPLEMENTATION OF ITS FUNCTIONSUSING RC SIGNALS.
 
 ## Thought Process
 After understanding the problem, describe how you decided to proceed towards solving the question.
-
+I DECIDED TO DEFINE FUNCTIONS FOR THE IMPLEMENTATION OF FUNCTIONS USED TO CONTROL THE MOTOR USING THE RC TRANSMISSION SIGNALS.
+ I USED THE HELP OF GOOGLE AND FEW OTHER RESOURCES FOR WRITING THE CORRECT CODE AND GIVING THE REQUIRED OUTPUT.
 ## Implementation
 How did you decide to implement your solution.
-
+I DECIDED TO IMPLEMENT THE CODE USING FEW FUNCTIONS AND INCLUDING LIBRARIES THAT WERE MISSNG IN THE CODE ALREADY GIVEN. THE CODE GIVEN BY ME WILL GIVE THE OUTPUT BASED ON THE MOTOR USED AND ITS FUNCTIONING.
 Mention the details, such as the scaling used in the interpolation and how you tested it.
+The SBUS values (0 to 2048) are scaled down to the PWM values (1 to 127) using the linear interpolation formula.
 
 # Google Form
 [Link to Repo Submission](https://docs.google.com/forms/d/e/1FAIpQLSeKVbm2dqWxwA5lbEkRfzY8KF619mI5ibGs0Cm2e5wrb0hoWQ/viewform)
