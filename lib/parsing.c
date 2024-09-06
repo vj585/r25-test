@@ -4,6 +4,13 @@
 // implement interpolation here
 int interpolation(uint16_t channel) {
 	// write interpolation code here
+    const uint16_t INPUT_MIN = 0;        // Minimum input value (typically 0)
+    const uint16_t INPUT_MAX = 2047;     // Maximum input value for 11-bit channel
+    const int OUTPUT_MIN = 0;            // Minimum output value for Sabertooth
+    const int OUTPUT_MAX = 254;          // Maximum output value for Sabertooth
+
+    // Scale channel value from input range to output range
+    return (channel - INPUT_MIN) * (OUTPUT_MAX - OUTPUT_MIN) / (INPUT_MAX - INPUT_MIN) + OUTPUT_MIN;
 }
 // creating 11 bit channel
 uint16_t *parse_buffer(uint8_t buff[]) { 
