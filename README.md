@@ -6,7 +6,7 @@
 #### Some Instructions
 1. You may use any online resources, datasheets, or documentation needed, but be mindful of your time and stay focused on the task.
 2. The duration of the test is 90 mins from 5:15pm to 6:45 pm.
-3. There will be a MCQ test conducted on Unstop
+3. There will be a MCQ test conducted [here](r25.munmap.net)
 4. There are 3 tasks in the tests. Complete all of them.
 5. In case you are not able to complete all the tasks, do upload the whatever you are able to do.
 6. In the `README.md` of your repository include your thought process, places where you got stuck, where you used the help of chatGPT, google or other online resources.
