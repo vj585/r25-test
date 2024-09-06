@@ -78,16 +78,16 @@ int read_SBUS(uint8_t *buffer, int fd) {
     }
     return total_bytes;
 }
-uint16_t* parse_buffer(uint8_t *sbus_packet) {
+uint16_t* parse_buffer(uint8_t *sbus_packet){
     static uint16_t channels[16];
-    channels[0]  = ((sbus_packet[1]      | sbus_packet[2] << 8)  & 0x07FF);
-    channels[1]  = ((sbus_packet[2] >> 3 | sbus_packet[3] << 5)  & 0x07FF);
-    channels[2]  = ((sbus_packet[3] >> 6 | sbus_packet[4] << 2 | sbus_packet[5] << 10) & 0x07FF);
-    channels[3]  = ((sbus_packet[5] >> 1 | sbus_packet[6] << 7)  & 0x07FF);
-    channels[4]  = ((sbus_packet[6] >> 4 | sbus_packet[7] << 4)  & 0x07FF);
-    channels[5]  = ((sbus_packet[7] >> 7 | sbus_packet[8] << 1 | sbus_packet[9] << 9) & 0x07FF);
-    channels[6]  = ((sbus_packet[9] >> 2 | sbus_packet[10] << 6) & 0x07FF);
-    channels[7]  = ((sbus_packet[10] >> 5 | sbus_packet[11] << 3) & 0x07FF);
+    channels[0]=((sbus_packet[1]      | sbus_packet[2] << 8)  & 0x07FF);
+    channels[1]=((sbus_packet[2] >> 3 | sbus_packet[3] << 5)  & 0x07FF);
+    channels[2]=((sbus_packet[3] >> 6 | sbus_packet[4] << 2 | sbus_packet[5] << 10) & 0x07FF);
+    channels[3]=((sbus_packet[5] >> 1 | sbus_packet[6] << 7)  & 0x07FF);
+    channels[4]=((sbus_packet[6] >> 4 | sbus_packet[7] << 4)  & 0x07FF);
+    channels[5]=((sbus_packet[7] >> 7 | sbus_packet[8] << 1 | sbus_packet[9] << 9) & 0x07FF);
+    channels[6]=((sbus_packet[9] >> 2 | sbus_packet[10] << 6) & 0x07FF);
+    channels[7]=((sbus_packet[10] >> 5 | sbus_packet[11] << 3) & 0x07FF);
  return channels;
 }
 int interpolation(uint16_t sbus_value) {
