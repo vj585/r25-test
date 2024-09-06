@@ -1,7 +1,7 @@
 # R-25 Test
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a68d8e9e-bfef-4037-8767-bb6ede97a66c" width="600" height="300"/>
+  <img src="https://github.com/teamrudra/r25-test/blob/main/datasheets/rover.jpeg" width="600" height="300"/>
 
 #### Some Instructions
 1. You may use any online resources, datasheets, or documentation needed, but be mindful of your time and stay focused on the task.
@@ -37,7 +37,7 @@ Your task is to interpolate a channel value into the format accepted by the moto
 If you are able to compile your code successfully you should see something like this on your screen:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7f4b7536-fcfd-4ed6-b6e7-f972ecd43a22" width="600" height="300"/>
+  <img src="https://github.com/teamrudra/r25-test/blob/main/datasheets/make_check_succesfull.png" width="600" height="300"/>
 </p>
 
 4. If your make check was unsuccesfull, you can clean your attempt by running `make clean`, review your implementation and repeat the previous steps.
@@ -59,5 +59,5 @@ Mention the details, such as the scaling used in the interpolation and how you t
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/19ce769a-9a87-42f6-8cba-c33cee80d27c" width="600" height="600"/>
+  <img src="https://github.com/teamrudra/r25-test/blob/main/datasheets/feynman-simple.jpg" width="600" height="600"/>
 </p>
